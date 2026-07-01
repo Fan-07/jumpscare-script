@@ -1,7 +1,7 @@
 local player = game.Players.LocalPlayer
 local part = workspace:WaitForChild("TouchPart") -- the name of the part (in workspace) that jumpscares when touched (can have any name but make sure no other parts are named the same)
 
-local image = script.Parent:WaitForChild("ImageLabel") -- js read the readme
+local image = script.Parent:WaitForChild("ImageLabel") -- name after your actual imagelabel
 
 local cooldown = false
 
